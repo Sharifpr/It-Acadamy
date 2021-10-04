@@ -9,7 +9,7 @@ const ManuBar = () => {
                 <div className="col-10 mx-auto">
                     <Navbar expand="lg">
                         <Container fluid>
-                            <Navbar.Brand className="fs-1 navbar-brand" bg="info" to="/Home">IT Acadamy</Navbar.Brand>
+                            <Navbar.Brand className="navbar-brand" bg="info" to="/Home">IT Acadamy</Navbar.Brand>
                             <Navbar.Toggle aria-controls="navbarScroll" />
                             <Navbar.Collapse id="navbarScroll">
                                 <Nav

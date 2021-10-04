@@ -16,9 +16,9 @@ const Services = () => {
             </div>
             <div className="container mb-5 ">
                 <div className="row item-style">
-                    <div className="col-10">
+                    <div className="col-12">
                         <div className="row gy-4">
-                            <div className="cart-style rounded">
+                            <div className="cart-style rounded ">
                                 {
                                     carts.map(cart => <ItemCart
                                         key={cart.id}
@@ -26,7 +26,6 @@ const Services = () => {
                                     ></ItemCart>)
                                 }
                             </div>
-
 
                         </div>
                     </div>

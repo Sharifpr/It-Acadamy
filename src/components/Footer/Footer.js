@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, FormControl, InputGroup } from 'react-bootstrap';
+import { Button, FormControl, InputGroup, Stack } from 'react-bootstrap';
 
 import './Footer.css';
 
@@ -7,7 +7,7 @@ import './Footer.css';
 const Footer = () => {
     return (
 
-        <div className="main-footer footer-style py-4 mt-4">
+        <div className="main-footer footer-style py-3 mt-4">
             <div className="container  ">
                 <div className="row ">
                     {/* coloumn-01 */}
@@ -16,6 +16,11 @@ const Footer = () => {
                         <ul className="list-unstyled">
                             <li> IT course prepares students to be experts who perform development, maintenance, and administration of computer applications.</li>
                         </ul>
+                        <Stack className="soical-icon" direction="horizontal" gap={3}>
+                            <a href="https://web.facebook.com/profile.php?id=100009968520679"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://twitter.com/sharifahmed5320?fbclid=IwAR3kNbTisxdMnFYKRV1-eC5FduksT2QrQCkN42PMbPtB-r1Dfimz3q8SHTw"><i class="fab fa-twitter-square"></i></a>
+                            <a href="https://www.linkedin.com/in/sharif-ahmed-200b951a3/"><i class="fab fa-linkedin"></i></a>
+                        </Stack>
 
                     </div>
                     {/* coloumn-02 */}

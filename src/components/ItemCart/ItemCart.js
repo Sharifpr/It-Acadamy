@@ -7,9 +7,9 @@ const ItemCart = (props) => {
     return (
         <div>
 
-            <div className="col-md-4 col-10 ">
+            <div className="col-md-4 col-10">
                 {/* card */}
-                <Card style={{ width: "400px", height: '450px' }}>
+                <Card className="single-cart2" style={{ width: "400px", height: '450px' }}>
                     <Card.Img variant="top" style={{ height: "261px" }} src={img} />
                     <Card.Body>
                         <div className="d-flex">

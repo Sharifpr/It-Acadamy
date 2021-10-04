@@ -69,7 +69,7 @@ const Contact = () => {
                                     onChange={InputEvent}
                                     as="textarea" rows={3} />
                             </Form.Group>
-                            <Button variant="outline-info" type="submit">Submit</Button>
+                            <Button variant="primary" type="submit">Submit</Button>
                         </Form>
                     </div>
                 </div>
