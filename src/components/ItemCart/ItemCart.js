@@ -14,7 +14,7 @@ const ItemCart = (props) => {
                     <Card.Body>
                         <div className="d-flex">
                             <Card.Title>{title}</Card.Title>
-                            <p className="ms-auto">$ {price}</p>
+                            <p className="ms-auto"><strong>$ {price}</strong></p>
                         </div>
                         <Card.Text>
                             {description.slice(0, 80)}

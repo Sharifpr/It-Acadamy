@@ -7,12 +7,13 @@ import './Footer.css';
 const Footer = () => {
     return (
 
-        <div className="main-footer footer-style py-3 mt-4">
+        <div className="main-footer footer-style py-4 mt-4">
             <div className="container  ">
                 <div className="row ">
                     {/* coloumn-01 */}
                     <div className="col-md-3 col-sm-6">
-                        <h4>IT Acadamy</h4>
+                        <h4><strong>IT Acadamy</strong></h4>
+                        <h5>About Us</h5>
                         <ul className="list-unstyled">
                             <li> IT course prepares students to be experts who perform development, maintenance, and administration of computer applications.</li>
                         </ul>
@@ -37,11 +38,11 @@ const Footer = () => {
                     </div>
                     {/* coloumn-03 */}
                     <div className="col-md-3 col-sm-6">
-                        <h4>About Us</h4>
+                        <h4>Contact</h4>
                         <ul className="list-unstyled">
-                            <li>phone: + 10255 6241 2532</li>
+                            <li>Phone: + 10255 6241 2532</li>
                             <li>Email: example@gmail.com</li>
-                            <li>Address: 120, state road, dhaka, bangladesh</li>
+                            <li>Address: 120, State Road, Dhaka, Bangladesh</li>
 
                         </ul>
                     </div>
@@ -49,7 +50,7 @@ const Footer = () => {
                     <div className="col-md-3 col-sm-6">
                         <h4>Join Us</h4>
                         <ul className="list-unstyled">
-                            <li className="fs-3 my-3">NewsLetter</li>
+                            <li className="fs-3 my-3"><strong>NewsLetter</strong></li>
                             <InputGroup className="mb-3">
                                 <FormControl
                                     placeholder="Send your CV"

@@ -10,7 +10,7 @@
 }
 .single-cart2:hover{
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-
+    transform: scale(0.9);
 }
 .item-style{
     margin-right: 0px !important;
@@ -25,6 +25,7 @@
     border-radius: 50px;
     transition: 0.5s;
     color: #3498db;
+    background-color: #fff;
     border: 2px solid #3498db;
     text-decoration: none;
 }
