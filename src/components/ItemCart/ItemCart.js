@@ -6,7 +6,6 @@ const ItemCart = (props) => {
     const { title, price, img, description } = props.carts;
     return (
         <div>
-
             <div className="col-md-4 col-10">
                 {/* card */}
                 <Card className="single-cart2" style={{ width: "400px", height: '450px' }}>
