@@ -18,9 +18,9 @@ const Footer = () => {
                             <li> IT course prepares students to be experts who perform development, maintenance, and administration of computer applications.</li>
                         </ul>
                         <Stack className="soical-icon" direction="horizontal" gap={3}>
-                            <a href="https://web.facebook.com/profile.php?id=100009968520679"><i class="fab fa-facebook-square"></i></a>
-                            <a href="https://twitter.com/sharifahmed5320?fbclid=IwAR3kNbTisxdMnFYKRV1-eC5FduksT2QrQCkN42PMbPtB-r1Dfimz3q8SHTw"><i class="fab fa-twitter-square"></i></a>
-                            <a href="https://www.linkedin.com/in/sharif-ahmed-200b951a3/"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://web.facebook.com/profile.php?id=100009968520679"><i className="fab fa-facebook-square"></i></a>
+                            <a href="https://twitter.com/sharifahmed5320?fbclid=IwAR3kNbTisxdMnFYKRV1-eC5FduksT2QrQCkN42PMbPtB-r1Dfimz3q8SHTw"><i className="fab fa-twitter-square"></i></a>
+                            <a href="https://www.linkedin.com/in/sharif-ahmed-200b951a3/"><i className="fab fa-linkedin"></i></a>
                         </Stack>
 
                     </div>
@@ -42,7 +42,7 @@ const Footer = () => {
                         <ul className="list-unstyled">
                             <li>Phone: + 10255 6241 2532</li>
                             <li>Email: example@gmail.com</li>
-                            <li>Address: 120, State Road, Dhaka, Bangladesh</li>
+                            <li>Address: 120, State Road, Dhaka, Bangladesh.</li>
 
                         </ul>
                     </div>
@@ -65,7 +65,7 @@ const Footer = () => {
                 </div>
                 {/* footer bottom */}
                 <div className="footer-bottom ">
-                    <p className="text-center"><strong> @ All Rights Reserved By: Sharif Ahmed </strong></p>
+                    <p className="text-center"><strong> @ All Rights Reserved By: Sharif Ahmed 2021 </strong></p>
                 </div>
             </div>
         </div >

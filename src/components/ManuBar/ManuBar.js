@@ -1,7 +1,9 @@
 import React from 'react';
 import { Container, Nav, Navbar, Stack } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
+import logo from '../../images/logo.png';
 import './ManuBar.css';
+
 const ManuBar = () => {
     return (
         <div className="conatiner-fluid">
@@ -9,6 +11,7 @@ const ManuBar = () => {
                 <div className="col-10 mx-auto">
                     <Navbar expand="lg">
                         <Container fluid>
+                            <img src={logo} style={{ height: '45px', width: '45px', marginRight: '6px' }} alt="" />
                             <Navbar.Brand className="navbar-brand" bg="info" to="/Home">IT Acadamy</Navbar.Brand>
                             <Navbar.Toggle aria-controls="navbarScroll" />
                             <Navbar.Collapse id="navbarScroll">
