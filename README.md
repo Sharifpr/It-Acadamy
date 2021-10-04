@@ -10,6 +10,6 @@ Bootstrap
 JavaScript
 React
 
-# Getting Started with Create React App
+# live site
 
 Live site link - https://quizzical-pare-e65b62.netlify.app/
