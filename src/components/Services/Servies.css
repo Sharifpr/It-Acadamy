@@ -1,7 +1,7 @@
-.cart-style{
+.service-conatiner{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-   grid-gap:15px;
+   grid-gap:20px;
 }
 .single-cart2{
     border: 0px solid gray;
