@@ -1,0 +1,66 @@
+[
+    {
+        "id": 46532,
+        "title": "Data Science",
+        "description": "Data science is the field of study that combines domain expertise, programming skills, and knowledge of mathematics and statistics to extract meaningful insights from data.",
+        "condition": "ture",
+        "price": 100,
+        "img": "https://i.ibb.co/kX8XRgy/Data-science.jpg"
+    },
+    {
+        "id": 46455,
+        "title": "Big Data Engineering",
+        "description": "A big data engineer is an information technology (IT) professional who is responsible for designing, building, testing and  that work with large data sets.",
+        "condition": "ture",
+        "price": 150,
+        "img": "https://i.ibb.co/16Pcr7T/pexels-photo-442152.jpg"
+    },
+    {
+        "id": 47854,
+        "title": "Data Analyst",
+        "condition": "ture",
+        "description": "The data analyst serves as a gatekeeper for an organization's data so stakeholders can understand data and use it to make strategic business decisions. It is a technical role that requires an undergraduate degree or master's degree in analytics, computer modeling, science, or math.",
+        "price": 250,
+        "img": "https://i.ibb.co/GTrnN3W/Data-Analyst.jpg"
+    },
+    {
+        "id": 46952,
+        "title": "Big Data Analysis",
+        "description": "Big data analytics describes the process of uncovering trends, patterns, and correlations in large amounts of raw data to help make data-informed decisions. These processes use familiar statistical analysis techniques—like clustering and regression—and apply them to more extensive datasets with the help of newer tools.",
+        "condition": "ture",
+        "price": 500,
+        "img": "https://i.ibb.co/P5fdpKJ/Big-Data-Analysis.jpg"
+    },
+    {
+        "id": 41102,
+        "title": "Web Designing",
+        "description": "Web design is the process of planning, conceptualizing, and arranging content online. Today, designing a website goes beyond aesthetics to include the website's overall functionality. Web design also includes web apps, mobile apps, and user interface design.",
+        "condition": "false",
+        "price": 180,
+        "img": "https://i.ibb.co/4J3M3G7/Web-Designing.jpg"
+    },
+    {
+        "id": 49850,
+        "title": "VFX Training & Animation ",
+        "description": "Animation and VFX is a three-year undergraduate programme intended to trains students to become professionals in the domain of 2d & 3D Animation, Visual Effects, Compositing, Storyboarding & Comics Design and Info-graphics arts.",
+        "condition": "false",
+        "price": 110,
+        "img": "https://www.vfx-courses.com/wp-content/uploads/2020/01/hitech1.jpg"
+    },
+    {
+        "id": 35890,
+        "title": "Software Development",
+        "description": "Software development is the process of conceiving, specifying, designing, programming, documenting, testing, and bug fixing involved in creating and maintaining applications, frameworks, or other software components. ... Software can be developed for a variety of purposes.",
+        "condition": "false",
+        "price": 450,
+        "img": "https://i.ibb.co/r0HGhnM/Software-Development.jpg"
+    },
+    {
+        "id": 99000,
+        "title": "Computer Hardware Engineering",
+        "description": "Computer hardware engineers research, design, develop, and test computer systems and components such as circuit boards. Computer hardware engineers research, design, develop, and test computer systems and components such as processors, circuit boards, memory devices, networks, and routers.",
+        "condition": "false",
+        "price": 450,
+        "img": "https://i.ibb.co/khHZMX2/pexels-alexander-dummer-132700.jpg"
+    }
+]
