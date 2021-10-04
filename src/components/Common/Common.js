@@ -5,12 +5,12 @@ const Common = (props) => {
 
     return (
         <div>
-            <section id="header" className="d-flex align-items-center">
+            <section id="header" className="d-flex ">
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-10 mx-auto">
-                            <div className="row">
-                                <div className="col-md-6 pt-5 mt-5 pt-lg-0 order-2 order-lg-1 justify-content-center flex-clumn">
+                            <div className="row justify-content-center align-items-center">
+                                <div className="col-md-6 pt-lg-0 order-2 order-lg-1  flex-clumn">
                                     <h1>{props.name} <br /><strong className="brand-name"> IT Acadamy</strong></h1>
                                     <p className="my-3">The course enrollment track specifies the type of certificate, if any, that the course offers.For more information about each enrollment track, see enrollment</p>
                                     <div className="mt-3">

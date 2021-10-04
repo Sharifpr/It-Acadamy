@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './Services.css';
+import './Servies.css';
 import ItemCart from '../ItemCart/ItemCart';
 
 const Services = () => {
@@ -15,10 +15,9 @@ const Services = () => {
                 <h1 className="text-center">Our Services</h1>
             </div>
             <div className="container mb-5 ">
-                <div className="row ">
+                <div className="row item-style">
                     <div className="col-10">
-                        <div className="row gy-4 cart-style">
-
+                        <div className="row gy-4">
                             <div className="cart-style rounded">
                                 {
                                     carts.map(cart => <ItemCart

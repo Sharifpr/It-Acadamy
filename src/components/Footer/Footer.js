@@ -1,5 +1,5 @@
 import React from 'react';
-import { FormControl, InputGroup } from 'react-bootstrap';
+import { Button, FormControl, InputGroup } from 'react-bootstrap';
 
 import './Footer.css';
 
@@ -7,16 +7,16 @@ import './Footer.css';
 const Footer = () => {
     return (
 
-        <div className="main-footer bg-info py-4 mt-4">
+        <div className="main-footer footer-style py-4 mt-4">
             <div className="container  ">
                 <div className="row ">
                     {/* coloumn-01 */}
                     <div className="col-md-3 col-sm-6">
                         <h4>IT Acadamy</h4>
                         <ul className="list-unstyled">
-                            <li>What is an IT course? IT course prepares students to be experts who perform installation, operation, development, maintenance, and administration of computer applications.</li>
-
+                            <li> IT course prepares students to be experts who perform development, maintenance, and administration of computer applications.</li>
                         </ul>
+
                     </div>
                     {/* coloumn-02 */}
                     <div className="col-md-3 col-sm-6">
@@ -44,13 +44,15 @@ const Footer = () => {
                     <div className="col-md-3 col-sm-6">
                         <h4>Join Us</h4>
                         <ul className="list-unstyled">
-                            <li className="my-3">NewsLetter</li>
+                            <li className="fs-3 my-3">NewsLetter</li>
                             <InputGroup className="mb-3">
                                 <FormControl
-                                    placeholder="Type your email or CV"
+                                    placeholder="Send your CV"
                                     aria-label="Recipient's username"
                                     aria-describedby="basic-addon2"
                                 />
+                                <Button
+                                    variant="primary">Submit</Button>
                             </InputGroup>
                         </ul>
                     </div>

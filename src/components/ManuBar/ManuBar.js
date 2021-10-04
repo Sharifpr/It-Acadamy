@@ -4,8 +4,8 @@ import { NavLink } from 'react-router-dom';
 import './ManuBar.css';
 const ManuBar = () => {
     return (
-        <div className="conatiner-fluid nav_bg">
-            <div className="row">
+        <div className="conatiner-fluid">
+            <div className="row nav-style">
                 <div className="col-10 mx-auto">
                     <Navbar expand="lg">
                         <Container fluid>
