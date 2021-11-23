@@ -65,7 +65,7 @@ const Footer = () => {
                 </div>
                 {/* footer bottom */}
                 <div className="footer-bottom ">
-                    <p className="text-center"><strong> @ All Rights Reserved By: Sharif Ahmed </strong></p>
+                    <p className="text-center"><strong> @ All Rights Reserved By: Sharif Ahmed 2021 </strong></p>
                 </div>
             </div>
         </div >
